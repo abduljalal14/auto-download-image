@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import requests
 
-csv_file = "nama_file.csv"  
+csv_file = "produk_terlaris.csv"  
 data = pd.read_csv(csv_file)
 
 product_names = data['Nama Item']  
